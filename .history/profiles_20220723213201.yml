@@ -1,4 +1,4 @@
-shopping_dbt:  # your profile name from dbt_project.yml
+shopping-dbt:  # your profile name from dbt_project.yml
   target: dev  # your development environment
   outputs:
     
