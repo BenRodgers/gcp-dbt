@@ -10,6 +10,6 @@
 {{ config(materialized='table') }}
 
 SELECT Store_ID_, Store_Sales
-FROM {{ source('raw_layer', 'stores') }}
+FROM `dev_shopping.stores`
 ORDER BY 2 DESC
 
