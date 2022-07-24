@@ -3,4 +3,4 @@ version: 2
 
 models:
     - name: top_stores
-      description: "A starter dbt model"
+      description: "The top 10 stored by sales"
